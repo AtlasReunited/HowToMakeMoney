@@ -1,0 +1,3 @@
+# HowToMakeMoney
+A cool HTML file that shows you a very cool resource to make lots of money...
+Just click the green button, what could possibly go wrong?? :D
