@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Most Important Site Ever</title>
+</head>
+<body>
+
+<button id="link">Press this button for 5 gazillion dollars!!!</button>
+
+<style>
+    body {
+        background-color: black;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #link {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 50px;
+        background-color: #4CAF50;
+        color: white;
+        padding: 15px 32px;
+        border: none;
+        cursor: pointer;
+        border-radius: 50px;
+    }
+    #link:hover {
+        background-color: #3e8e41;
+    }
+</style>
+<script>
+    //When pressing the link, it'll redirect to a youtube video
+    document.getElementById("link").onclick = function () {
+        location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+    };
+</script>
+
+</body>
+</html>
